@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+.bg-raziel{
+    background: #CFE7fA;
+background: linear-gradient(to right, #CFE7fA 0%, #6393C1 100%);
+
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Pattaya', sans-serif;
+    color: black;
+   
+}
+h5{
+    text-align: right;
+}
+#carouselExampleCaptions{
+width: 600px;
+height: 400px;
+text-align: center;
+margin: auto;
+}
+main{
+margin-bottom: 100px;
+}
+h4{
+    background-color: black;
+    color: aliceblue;
+}
+.mt10p{
+    margin-top: 10px;
+}
+.adexp>h1{
+text-align: center;
+}
+.adexp>p{
+    text-align: justify;
+    margin: 20px;
+}
