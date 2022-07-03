@@ -39,5 +39,22 @@ text-align: center;
 .adexp>p{
     text-align: justify;
     margin: 20px;
-    if 
+}
+.m20{
+    margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+     #carouselExampleCaptions{
+  width: 400px;
+  margin-bottom: 100px;
+  height: 300px;
+    }
+}
+a.nav-link:hover{
+    background-color: #CFE7fA;
+    border-radius: 30px;
+}
+li.nav-item{
+    margin-right: 30px;
+    font-size: 20px;
 }
