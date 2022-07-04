@@ -67,4 +67,9 @@ a.nav-link:hover {
 li.nav-item {
   margin-right: 30px;
   font-size: 20px;
+}
+
+.row img {
+  width: 300px;
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */
