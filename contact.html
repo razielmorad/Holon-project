@@ -59,19 +59,51 @@
       </header>
     </div>
     <main class="flex-fill">
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <form class="d-none d-sm-block">
+        <div class="mb-3 w-50">
+          <label for="exampleInputName" class="form-label">שם פרטי</label>
+          <input  type="text" class="form-control" id="exampleInputName"
+            aria-describedby="NameHelp">
+          <div class="mb-3">
+            <label for="exampleInputlast" class="form-label">שם משפחה</label>
+            <input  type="text" class="form-control" id="exampleInputlast">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">כתובת מייל</label>
+            <input dir="ltr" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+           <label for="textarea" class="form-label">סיבת הפנייה</label>
+           <textarea class="form-control" name="" id="textarea" cols="30" rows="10"></textarea>
+          </div>
+
+          <div id="emailHelp" class="form-text">לא נחלוק את הפרטים האישיים שלך עם אף אחד.</div>
+
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+
+
+      <form class="d-sm-none">
+        <div class="mb-3 w-75">
+          <div class="mb-3">
+          <input placeholder="שם פרטי" type="text" class="form-control" id="exampleInputName"
+            aria-describedby="NameHelp">
+          </div>
+          <div class="mb-3">
+            <input placeholder="שם משפחה" type="text" class="form-control" id="exampleInputlast">
+          </div>
+          <div class="mb-3">
+            <input placeholder="כתובת מייל" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+           <textarea placeholder="סיבת הפנייה" class="form-control" name="" id="textarea" cols="30" rows="5"></textarea>
+          </div>
+
+          <div id="emailHelp" class="form-text">לא נחלוק את הפרטים האישיים שלך עם אף אחד.</div>
+
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
