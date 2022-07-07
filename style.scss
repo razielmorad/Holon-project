@@ -52,6 +52,7 @@ text-align: center;
     #lightboxc{
         width: 10px;
     }
+  
 }
 a.nav-link:hover{
     background-color: #CFE7fA;
@@ -87,7 +88,7 @@ li.nav-item{
     animation: wiggle 2s linear infinite;
   }
   
-  /* Keyframes */
+  
   @keyframes wiggle {
     0%, 7% {
       transform: rotateZ(0);
@@ -113,9 +114,9 @@ li.nav-item{
   }
   
   button.btn.btn-primary {
-    position: absolute;
+    position: static;
     left: calc(60% - 3em);
-    top: calc(135% - 2em);
+    top: calc(105% - 2em);
     
     height: 4em;
     width: 7em;
@@ -131,7 +132,7 @@ li.nav-item{
     transform-origin: 50% 5em;
   }
   #form2b.btn.btn-primary {
-    position: absolute;
+    position: static;
     left: calc(60% - 3em);
     top: calc(105% - 2em);
     

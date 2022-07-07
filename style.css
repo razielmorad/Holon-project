@@ -103,7 +103,6 @@ button.btn.btn-primary {
           animation: wiggle 2s linear infinite;
 }
 
-/* Keyframes */
 @-webkit-keyframes wiggle {
   0%, 7% {
     transform: rotateZ(0);
@@ -127,6 +126,7 @@ button.btn.btn-primary {
     transform: rotateZ(0);
   }
 }
+
 @keyframes wiggle {
   0%, 7% {
     transform: rotateZ(0);
@@ -151,9 +151,9 @@ button.btn.btn-primary {
   }
 }
 button.btn.btn-primary {
-  position: absolute;
+  position: static;
   left: calc(60% - 3em);
-  top: calc(135% - 2em);
+  top: calc(105% - 2em);
   height: 4em;
   width: 7em;
   background: #444;
@@ -168,7 +168,7 @@ button.btn.btn-primary {
 }
 
 #form2b.btn.btn-primary {
-  position: absolute;
+  position: static;
   left: calc(60% - 3em);
   top: calc(105% - 2em);
   height: 4em;
