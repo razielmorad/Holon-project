@@ -44,13 +44,14 @@ text-align: center;
     margin: 20px;
 }
 @media only screen and (max-width: 600px) {
-     #carouselExampleCaptions{
+    #imgh.active{
   width: 100vw;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   height: 300px;
     }
-    #lightboxc{
+    div.col-4.respon{
         width: 10px;
+        border: solid 5px black;
     }
   
 }
