@@ -39,29 +39,11 @@ h4, .carousel-caption > p {
   margin-top: 10px;
 }
 
-.adexp > h1 {
-  text-align: center;
-}
-
-.adexp > p {
-  text-align: justify;
-  margin: 20px;
-}
-
-.m20 {
-  margin: 20px;
-}
-
 @media only screen and (max-width: 600px) {
   #imgh.active {
     width: 100vw;
     margin-bottom: 50px;
     height: 300px;
-  }
-
-  div.col-4.respon {
-    width: 10px;
-    border: solid 5px black;
   }
 }
 a.nav-link:hover {
@@ -183,4 +165,40 @@ button.btn.btn-primary {
   font-family: Helvetica, Arial, Sans-serif;
   font-size: 1em;
   transform-origin: 50% 5em;
+}
+
+.typing {
+  position: relative;
+}
+.typing::after {
+  content: "|";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: white;
+  background: white;
+  -webkit-animation: typing 4s steps(16) forwards, caret 1s infinite;
+          animation: typing 4s steps(16) forwards, caret 1s infinite;
+}
+
+@-webkit-keyframes typing {
+  to {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  to {
+    width: 0;
+  }
+}
+@-webkit-keyframes caret {
+  50% {
+    color: transparent;
+  }
+}
+@keyframes caret {
+  50% {
+    color: transparent;
+  }
 }/*# sourceMappingURL=style.css.map */

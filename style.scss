@@ -33,27 +33,12 @@ h4,.carousel-caption>p{
 .mt10p{
     margin-top: 10px;
 }
-.adexp>h1{
-text-align: center;
-}
-.adexp>p{
-    text-align: justify;
-    margin: 20px;
-}
-.m20{
-    margin: 20px;
-}
 @media only screen and (max-width: 600px) {
     #imgh.active{
   width: 100vw;
   margin-bottom: 50px;
   height: 300px;
-    }
-    div.col-4.respon{
-        width: 10px;
-        border: solid 5px black;
-    }
-  
+    } 
 }
 a.nav-link:hover{
     background-color: #CFE7fA;
@@ -63,7 +48,6 @@ li.nav-item{
     margin-right: 30px;
     font-size: 20px;
 }
-
 .row img{
     width: 300px;
     height: 250px;
@@ -88,8 +72,6 @@ li.nav-item{
   button.btn.btn-primary {
     animation: wiggle 2s linear infinite;
   }
-  
-  
   @keyframes wiggle {
     0%, 7% {
       transform: rotateZ(0);
@@ -113,15 +95,12 @@ li.nav-item{
       transform: rotateZ(0);
     }
   }
-  
   button.btn.btn-primary {
     position: static;
     left: calc(60% - 3em);
     top: calc(105% - 2em);
-    
     height: 4em;
     width: 7em;
-    
     background: #444;
     background: linear-gradient(top, #555, #333);
     border: none;
@@ -136,10 +115,8 @@ li.nav-item{
     position: static;
     left: calc(60% - 3em);
     top: calc(105% - 2em);
-    
     height: 4em;
     width: 7em;
-    
     background: #444;
     background: linear-gradient(top, #555, #333);
     border: none;
@@ -150,6 +127,32 @@ li.nav-item{
     font-size: 1em;
     transform-origin: 50% 5em;
   }
+  $bg: #1d1f20;
+  $text-color: #d7b94c;
+  $caret-color: white;
+  $text-length: 16;
+  $animation-time: 4s;
+  
+  .typing {
+    position: relative;
+      &::after {
+      content: "|";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      color: $caret-color;
+      background: white;
+     animation: typing $animation-time steps($text-length) forwards,
+        caret 1s infinite;
+    }
+  }
+  @keyframes typing {
+      to { width: 0 }
+  }
+  @keyframes caret {
+      50% { color: transparent }
+  }
+ 
   
 
   
