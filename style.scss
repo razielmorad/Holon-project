@@ -43,6 +43,11 @@ h4,.carousel-caption>p{
      width:684px;
       height:385px;
 }
+.vid{
+    margin-top: 50px;
+    width:584px;
+    height:285px;
+}
 @media only screen and (max-width: 600px) {
     #imgh.active,{
   width: 100vw;
@@ -65,6 +70,11 @@ h4,.carousel-caption>p{
         height: 300px;
     }
     #tlv{
+        width: 100vw;
+        margin: 0px;
+        height: 300px;
+    }
+    .vid{
         width: 100vw;
         margin: 0px;
         height: 300px;
