@@ -33,12 +33,42 @@ h4,.carousel-caption>p{
 .mt10p{
     margin-top: 10px;
 }
+#shrek,#oldad,#tlv{
+    height: 650px;
+     width: 900px;
+      margin-right: 10%;
+}
+.song{
+    margin-right:22%;
+     width:684px;
+      height:385px;
+}
 @media only screen and (max-width: 600px) {
-    #imgh.active{
+    #imgh.active,{
   width: 100vw;
   margin-bottom: 50px;
   height: 300px;
     } 
+    #shrek {
+        width: 100vw;
+        margin: 0px;
+        height: 300px;
+    }
+    #oldad {
+        width: 100vw;
+        margin: 0px;
+        height: 300px;
+    }
+    .song{
+        width: 100vw;
+        margin: 0px;
+        height: 300px;
+    }
+    #tlv{
+        width: 100vw;
+        margin: 0px;
+        height: 300px;
+    }
 }
 a.nav-link:hover{
     background-color: #CFE7fA;
