@@ -60,22 +60,22 @@
       </header>
     </div>
     <main class="flex-fill">
-      <form class="d-none d-sm-block mx-2">
+      <form action="https://formspree.io/f/mzboljve" method="post"  class="d-none d-sm-block mx-2">
         <div class="mb-3 w-50">
           <label for="exampleInputName" class="form-label">שם פרטי</label>
-          <input  type="text" class="form-control" id="exampleInputName"
+          <input required name="name" minlength="1"  type="text" class="form-control" id="exampleInputName"
             aria-describedby="NameHelp">
           <div class="mb-3">
             <label for="exampleInputlast" class="form-label">שם משפחה</label>
-            <input  type="text" class="form-control" id="exampleInputlast">
+            <input required name="family name" minlength="1"  type="text" class="form-control" id="exampleInputlast">
           </div>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">כתובת מייל</label>
-            <input dir="ltr" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input required name="email" minlength="6" dir="ltr" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
            <label for="textarea" class="form-label">סיבת הפנייה</label>
-           <textarea class="form-control" name="" id="textarea" cols="30" rows="10"></textarea>
+           <textarea required minlength="2" class="form-control" name="text" id="textarea" cols="30" rows="10"></textarea>
           </div>
 
           <div id="emailHelp" class="form-text">לא נחלוק את הפרטים האישיים שלך עם אף אחד.</div>
@@ -87,20 +87,20 @@
 
 
 
-      <form class="d-sm-none">
+      <form class="d-sm-none" action="https://formspree.io/f/mzboljve" method="post">
         <div class="mb-3 w-75">
           <div class="mb-3">
-          <input placeholder="שם פרטי🚹" type="text" class="form-control" id="exampleInputName"
+          <input required name="name" minlength="1" placeholder="שם פרטי🚹" type="text" class="form-control" id="exampleInputName"
             aria-describedby="NameHelp">
           </div>
           <div class="mb-3">
-            <input placeholder="שם משפחה🚹" type="text" class="form-control" id="exampleInputlast">
+            <input required name="family name" minlength="1" placeholder="שם משפחה🚹" type="text" class="form-control" id="exampleInputlast">
           </div>
           <div class="mb-3">
-            <input placeholder="כתובת מייל ✉️" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input required name="email" minlength="6" placeholder="כתובת מייל ✉️" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-           <textarea placeholder="סיבת הפנייה🗨️" class="form-control" name="" id="textarea" cols="30" rows="5"></textarea>
+           <textarea required  minlength="2" placeholder="סיבת הפנייה🗨️" class="form-control" name="text" id="textarea" cols="30" rows="5"></textarea>
           </div>
 
           <div id="emailHelp" class="form-text">לא נחלוק את הפרטים האישיים שלך עם אף אחד.</div>
