@@ -51,7 +51,13 @@ h4, .carousel-caption > p {
   height: 385px;
 }
 
-.vid {
+#vid {
+  margin-top: 50px;
+  width: 584px;
+  height: 285px;
+}
+
+#vid2 {
   margin-top: 50px;
   width: 584px;
   height: 285px;
@@ -84,13 +90,12 @@ h4, .carousel-caption > p {
     height: 300px;
   }
   #vid {
-    width: 100vw;
+    width: 90vw;
     margin: 0px;
     height: 300px;
-    margin-bottom: 10px;
   }
   #vid2 {
-    width: 100vw;
+    width: 90vw;
     margin: 0px;
     height: 300px;
   }
