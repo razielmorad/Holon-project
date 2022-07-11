@@ -83,7 +83,13 @@ h4, .carousel-caption > p {
     margin: 0px;
     height: 300px;
   }
-  .vid {
+  #vid {
+    width: 100vw;
+    margin: 0px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  #vid2 {
     width: 100vw;
     margin: 0px;
     height: 300px;
